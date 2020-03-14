@@ -40,6 +40,8 @@ gem 'jquery-rails'
 
 gem 'simple_form'
 
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -67,6 +69,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
+  gem "factory_bot_rails"
 end
 
 gem 'popper_js', '~> 1.11.1'
